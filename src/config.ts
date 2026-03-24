@@ -4,7 +4,7 @@ export const siteConfig = {
   description: "Portfolio de Do Nguyen Hoang Minh, étudiant en informatique à Paris-Saclay",
   accentColor: "#043A7E",
   social: {
-    email: "dohoangminhvn1@gmail.com",
+    email: "https://mail.google.com/mail/?view=cm&to=dohoangminhvn1@gmail.com",
     linkedin: "https://www.linkedin.com/in/do-nguyenhoangminh/",
     github: "https://github.com/dohoangminh11",
   },
