@@ -2,12 +2,12 @@ export const siteConfig = {
   name: "Do Nguyen Hoang Minh",
   title: "Développeur logiciel — Alternance BUT2",
   description: "Portfolio de Do Nguyen Hoang Minh, étudiant en informatique à Paris-Saclay",
-  accentColor: "#1D9E75",
+  accentColor: "#043A7E",
   social: {
     email: "dohoangminhvn1@gmail.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
+    linkedin: "https://www.linkedin.com/in/do-nguyenhoangminh/",
     twitter: "",
-    github: "https://github.com/yourprofile",
+    github: "https://github.com/dohoangminh11",
   },
   aboutMe:
     "Étudiant en BUT2 Informatique à l'Université Paris-Saclay, je recherche une alternance de 24 mois en développement logiciel et applicatif. À l'aise en Python, C++ et Java, je développe des applications robustes avec un fort intérêt pour l'analyse de données et la résolution de problématiques concrètes. Méthodique et rigoureux, je m'adapte rapidement à un environnement technique exigeant.",
@@ -17,7 +17,7 @@ export const siteConfig = {
       name: "Jeu de labyrinthe Python",
       description:
         "Jeu de labyrinthe avec interface graphique Turtle. Modes manuel (contrôles clavier) et automatique via algorithme DFS. Cellules colorées selon leur type (croisement, impasse, entrée, sortie).",
-      link: "https://github.com/yourprofile",
+      link: "https://github.com/dohoangminh11/maze-bot-python",
       skills: ["Python", "Algorithmique", "DFS"],
     },
     {
@@ -88,7 +88,7 @@ export const siteConfig = {
       degree: "L1 Mathématiques - Informatique International",
       dateRange: "2024 - 2025",
       achievements: [
-        "Diplôme obtenu",
+        "L1 obtenue",
       ],
     },
     {
