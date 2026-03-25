@@ -1,5 +1,6 @@
 ---
 import { siteConfig } from "../config";
+import AvailabilityBadge from "./AvailabilityBadge.astro";
 ---
 
 <div
@@ -136,13 +137,14 @@ import { siteConfig } from "../config";
       >
         Bienvenue sur mon portfolio! 💼
       </h2>
-      <h1
-        class="mt-6 sm:mt-8 md:mt-10 text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold tracking-tight text-gray-800 animate-fade-in animation-delay-200"
-      >
-        Je suis <span style={{ color: siteConfig.accentColor }}
-          >{siteConfig.name}</span
+      <div class="flex items-center gap-3 mt-6 sm:mt-8 md:mt-10">
+        <AvailabilityBadge />
+        <h1
+          class="text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold tracking-tight text-gray-800 animate-fade-in animation-delay-200"
         >
-      </h1>
+          Je suis <span style={{ color: siteConfig.accentColor }}>{siteConfig.name}</span>
+        </h1>
+      </div>
       <p
         class="mt-4 sm:mt-6 md:mt-8 text-pretty text-base sm:text-lg md:text-xl/8 font-medium text-gray-600 animate-fade-in animation-delay-400"
       >
