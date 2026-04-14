@@ -27,21 +27,21 @@ export const siteConfig = {
       name: "Jeu 2D en C++",
       description:
         "Moteur de jeu 2D en C++ avec architecture orientée objet, gestion de sprites et animations, détection de collisions et logique d'objets interactifs.",
-      link: "https://github.com/yourprofile",
+      link: "https://github.com/dohoangminh11/s102project-cgame",
       skills: ["C++", "POO", "Algorithmique"],
     },
     {
       name: "Base de données relationnelle",
       description:
         "Conception et gestion d'une base de données relationnelle : modélisation UML, schéma SQL complet, requêtes d'exploitation et gestion des contraintes d'intégrité.",
-      link: "https://github.com/yourprofile",
+      link: "https://github.com/dohoangminh11",
       skills: ["SQL", "UML", "SQLDeveloper"],
     },
     {
       name: "Administration système UNIX",
       description:
         "Création d'un poste de travail sous UNIX : gestion des profils utilisateurs, droits administrateurs, arborescence de travail sécurisée.",
-      link: "https://github.com/yourprofile",
+      link: "https://github.com/dohoangminh11",
       skills: ["Linux", "UNIX", "Administration système"],
     },
   ],
