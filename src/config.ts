@@ -46,10 +46,18 @@ export const siteConfig = {
     },
   ],
   experience: [
+    {company: "TechPro.vn",
+      title: "Stagiaire développeur",
+      dateRange: "Juin 2026 - Aout 2026",
+      bullets: [
+        "Stage au sein d'une entreprise spécialisée en transformation numérique (IoT, sécurité, maintenance...) et solutions pour villes intelligentes",
+        "Environnement technique exigeant, partenariats avec des groupes technologiques internationaux",
+      ],
+    },
     {
       company: "McDonalds",
       title: "Équipier polyvalent — temps partiel",
-      dateRange: "Août 2025 - Présent",
+      dateRange: "Août 2025 - Juin 2026",
       bullets: [
         "Gestion simultanée de plusieurs postes en environnement à fort flux",
         "Rigueur, réactivité et respect strict des procédures",
