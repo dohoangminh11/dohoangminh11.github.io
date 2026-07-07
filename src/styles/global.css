@@ -2,4 +2,18 @@
 
 body {
   font-family: 'IBM Plex Mono', monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Tighter section rhythm */
+section + section {
+  border-top: 1px solid #f3f4f6;
+}
+
+/* Refined card look */
+.rounded-lg {
+  border-radius: 0.5rem;
 }

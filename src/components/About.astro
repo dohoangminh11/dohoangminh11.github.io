@@ -2,32 +2,32 @@
 import { siteConfig } from "../config";
 ---
 
-<section id="about" class="p-8 sm:p-12 md:p-16 lg:p-24">
+<section id="about" class="p-6 sm:p-10 md:p-14 lg:p-20">
   <div>
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-12 items-start">
       <div class="lg:col-span-4">
         <h2
-          class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900"
+          class="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold text-gray-900"
         >
           À propos de moi 
         </h2>
         <div
-          class="w-[75px] h-[5px] mt-2 rounded-full"
+          class="w-[48px] h-[3px] mt-2 rounded-full"
           style={`background-color: ${siteConfig.accentColor}`}
         >
         </div>
       </div>
 
-      <div class="lg:col-span-8 space-y-8">
-        <p class="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-600">
+      <div class="lg:col-span-8 space-y-6">
+        <p class="text-sm sm:text-base md:text-lg leading-relaxed text-gray-600">
           {siteConfig.aboutMe}
         </p>
 
-        <div class="pt-4">
-          <div class="flex flex-wrap gap-3">
+        <div class="pt-2">
+          <div class="flex flex-wrap gap-2">
             {
               siteConfig.skills.map((skill) => (
-                <span class="px-3 sm:px-4 py-1.5 sm:py-2 bg-gray-100 text-gray-800 rounded-full text-sm sm:text-base md:text-lg font-medium hover:bg-gray-200 transition-colors duration-200">
+                <span class="px-2.5 sm:px-3 py-1 sm:py-1.5 bg-gray-100 text-gray-700 rounded-full text-xs sm:text-sm font-medium hover:bg-gray-200 transition-colors duration-200">
                   {skill}
                 </span>
               ))

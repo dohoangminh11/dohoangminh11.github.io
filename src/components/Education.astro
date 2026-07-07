@@ -6,45 +6,45 @@ const hasLanguages = siteConfig.langages && siteConfig.langages.length > 0;
 
 {
   hasEducation && (
-    <section id="education" class="p-8 sm:p-12 md:p-16 lg:p-24">
+    <section id="education" class="p-6 sm:p-10 md:p-14 lg:p-20">
       <div>
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-12 items-start">
           <div class="lg:col-span-4">
-            <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold text-gray-900">
               Éducation
             </h2>
             <div
-              class="w-[75px] h-[5px] mt-2 rounded-full"
+              class="w-[48px] h-[3px] mt-2 rounded-full"
               style={`background-color: ${siteConfig.accentColor}`}
             />
           </div>
 
           <div class="lg:col-span-8">
-            <div class="space-y-8">
+            <div class="space-y-5">
               {siteConfig.education.map((edu) => (
-                <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4 sm:p-5 md:p-6 hover:shadow-md transition-shadow duration-300">
-                  <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-4">
+                <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4 hover:shadow-md transition-shadow duration-300">
+                  <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-3">
                     <div>
-                      <h3 class="text-lg sm:text-xl font-semibold text-gray-900">
+                      <h3 class="text-sm sm:text-base font-semibold text-gray-900">
                         {edu.degree}
                       </h3>
                       <p
-                        class="text-base sm:text-lg"
+                        class="text-sm"
                         style={`color: ${siteConfig.accentColor}`}
                       >
                         {edu.school}
                       </p>
                     </div>
-                    <span class="text-xs sm:text-sm text-gray-500 mt-2 sm:mt-0">
+                    <span class="text-xs text-gray-400 mt-1 sm:mt-0">
                       {edu.dateRange}
                     </span>
                   </div>
 
-                  <ul class="space-y-2">
+                  <ul class="space-y-1.5">
                     {edu.achievements.map((achievement) => (
                       <li class="flex items-start">
-                        <span class="inline-block w-1.5 h-1.5 rounded-full bg-gray-400 mt-2 mr-3 flex-shrink-0" />
-                        <span class="text-sm sm:text-base text-gray-600">
+                        <span class="inline-block w-1 h-1 rounded-full bg-gray-300 mt-2 mr-2.5 flex-shrink-0" />
+                        <span class="text-xs sm:text-sm text-gray-500 leading-relaxed">
                           {achievement}
                         </span>
                       </li>
@@ -56,32 +56,32 @@ const hasLanguages = siteConfig.langages && siteConfig.langages.length > 0;
           </div>
         </div>
 
-        {/* Section Langages */}
+        {/* Langues */}
         {hasLanguages && (
-          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start mt-16">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-12 items-start mt-12">
             <div class="lg:col-span-4">
-              <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
+              <h2 class="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold text-gray-900">
                 Langues
               </h2>
               <div
-                class="w-[75px] h-[5px] mt-2 rounded-full"
+                class="w-[48px] h-[3px] mt-2 rounded-full"
                 style={`background-color: ${siteConfig.accentColor}`}
               />
             </div>
 
             <div class="lg:col-span-8">
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {siteConfig.langages.map((lang) => {
                   const [langue, niveau] = lang.split(" — ");
                   return (
-                    <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4 sm:p-5 hover:shadow-md transition-shadow duration-300 flex items-center gap-4">
+                    <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-3 hover:shadow-md transition-shadow duration-300 flex items-center gap-3">
                       <div
-                        class="w-2 h-10 rounded-full flex-shrink-0"
+                        class="w-1.5 h-8 rounded-full flex-shrink-0"
                         style={`background-color: ${siteConfig.accentColor}`}
                       />
                       <div>
-                        <p class="font-semibold text-gray-900">{langue}</p>
-                        <p class="text-sm text-gray-500">{niveau}</p>
+                        <p class="text-sm font-semibold text-gray-900">{langue}</p>
+                        <p class="text-xs text-gray-400">{niveau}</p>
                       </div>
                     </div>
                   );
