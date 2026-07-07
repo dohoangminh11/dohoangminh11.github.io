@@ -14,8 +14,15 @@ export const siteConfig = {
   available: {
     available: true,
   },
-  skills: ["Python", "Java", "C++", "OCaml", "SQL", "Git", "Linux", "HTML/CSS"],
+  skills: ["Python", "Java", "C++", "OCaml", "SQL", "Git", "Linux", "HTML/CSS", "React", "Tailwind CSS"],
   projects: [
+    {
+      name: "Workspace personnel",
+      description:
+        "Espace de travail de productivité pour développeur conçu avec React et Vite. Intègre un gestionnaire de tâches persistant, des raccourcis clavier globaux, un widget météo en temps réel, un bloc-notes, et un sélecteur de thèmes avec des transitions d'affichage fluides (API View Transition).",
+      link: "https://github.com/dohoangminh11/personal-workspace",
+      skills: ["React", "Vite", "Tailwind CSS"],
+    },
     {
       name: "Jeu de labyrinthe Python",
       description:
