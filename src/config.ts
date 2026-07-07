@@ -20,7 +20,7 @@ export const siteConfig = {
       name: "Workspace personnel",
       description:
         "Espace de travail de productivité pour développeur conçu avec React et Vite. Intègre un gestionnaire de tâches persistant, des raccourcis clavier globaux, un widget météo en temps réel, un bloc-notes, et un sélecteur de thèmes avec des transitions d'affichage fluides (API View Transition).",
-      link: "https://github.com/dohoangminh11/personal-workspace",
+      link: "https://dohoangminh11.github.io/personal-workspace/",
       skills: ["React", "Vite", "Tailwind CSS"],
     },
     {
@@ -53,12 +53,13 @@ export const siteConfig = {
     },
   ],
   experience: [
-    {company: "TechPro.vn",
-      title: "Stagiaire développeur",
+    {
+      company: "TechPro.vn",
+      title: "Stagiaire développeur full-stack",
       dateRange: "Juin 2026 - Aout 2026",
       bullets: [
-        "Stage au sein d'une entreprise spécialisée en transformation numérique (IoT, sécurité, maintenance...) et solutions pour villes intelligentes",
-        "Environnement technique exigeant, partenariats avec des groupes technologiques internationaux",
+        "Développement fullstack avec un stack React (front-end) et C# / .NET + PostgreSQL (back-end), dans un environnement de transformation numérique",
+        "Formation et intégration de l'IA dans le workflow de développement (génération de code, revue assistée, automatisation)",
       ],
     },
     {
